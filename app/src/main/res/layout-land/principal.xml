@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn1jug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+		android:text="@string/jugador"
+        android:background="?android:attr/selectableItemBackground" />
+    
+    <Button
+        android:id="@+id/btn2jug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+		android:text="@string/jugadores"
+        android:background="?android:attr/selectableItemBackground" />
+    
+    <Button
+        android:id="@+id/btnagrpalabras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+		android:text="@string/btnagrpalabras"
+        android:background="?android:attr/selectableItemBackground" />
+    
+    <Button
+        android:id="@+id/btnayuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/ayuda"
+        android:background="?android:attr/selectableItemBackground" />
+
+    <Button
+        android:id="@+id/btncreditos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/creditos"
+        android:background="?android:attr/selectableItemBackground" />
+
+    
+
+</LinearLayout>

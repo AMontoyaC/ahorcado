@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\puntaje2jugs.xml",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\layout-land\\puntaje2jugs.xml"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\categorias.xml",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\layout-land\\categorias.xml"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\perdiste.xml",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\layout-land\\perdiste.xml"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\principal.xml",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\layout-land\\principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\jugador1.xml",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\layout-land\\jugador1.xml"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\adivinaste.xml",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\layout-land\\adivinaste.xml"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\jugsingreso.xml",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\layout-land\\jugsingreso.xml"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\agregar_palabras_categorias.xml",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\layout-land\\agregar_palabras_categorias.xml"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\agregar_palabra.xml",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\layout-land\\agregar_palabra.xml"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\jugadores2.xml",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\layout-land\\jugadores2.xml"
+    }
+]

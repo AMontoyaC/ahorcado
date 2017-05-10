@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/fondo">
+    
+    <TableRow 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+        
+        <Button
+    		android:id="@+id/btnpersonajes"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/catpsj"
+    		android:textColor="@color/white"
+    		android:layout_margin="5dp"
+    		android:drawableTop="@drawable/personajes"
+            />
+
+        <Button
+            android:id="@+id/btncomida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/comida"
+            android:text="@string/catcomida"
+    		android:layout_margin="5dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnciudadespaises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/ciudpai"
+            android:text="@string/catciudpai"
+            android:textColor="@color/white" />
+        
+        </TableRow>
+        
+    	<TableRow 
+    	    android:layout_width="match_parent"
+    		android:layout_height="match_parent">
+
+    	    <Button
+    		android:id="@+id/btnPeliculasSeries"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/catpeliser"
+    		android:textColor="@color/white"
+    		android:layout_margin="5dp"
+    		android:drawableTop="@drawable/moviestv"
+            />
+    	    
+    		<Button
+    		    android:id="@+id/btnmusica"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_margin="5dp"
+    		    android:drawableTop="@drawable/musica"
+    		    android:text="@string/catmusica"
+    		    android:textColor="@color/white" />
+
+    		<Button
+    		    android:id="@+id/btnmarcas"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_margin="5dp"
+    		    android:drawableTop="@drawable/marcas"
+    		    android:text="@string/catmarcas"
+    		    android:textColor="@color/white" />
+
+    	</TableRow>
+        
+    	<TableRow 
+    	    android:layout_width="match_parent"
+    		android:layout_height="match_parent">
+    	</TableRow>
+    	
+    	<TableRow 
+    	    android:layout_width="match_parent"
+    		android:layout_height="match_parent">
+    	    
+    	    <Button
+    		android:id="@+id/btndeportes"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/catdeportes"
+    		android:textColor="@color/white"
+    		android:layout_margin="5dp"
+    		android:drawableTop="@drawable/deportes"
+            />
+    	    
+    	    <Button
+    		android:id="@+id/btndisney"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/catdisney"
+    		android:textColor="@color/white"
+    		android:layout_margin="5dp"
+    		android:drawableTop="@drawable/disney"/>
+    	</TableRow>
+
+</TableLayout>

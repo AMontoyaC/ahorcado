@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ahorcado</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo">A H O R C A D O</string>
+    <string name="jugador">1 Jugador</string>
+    <string name="jugadores">2 Jugadores</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="creditos">Créditos</string>
+    <string name="textoayuda1">1 Jugador</string>
+    <string name="textoayuda2">Selecciona una categoría y juega al ahorcado con una palabra seleccionada al azar referente a tu selección.\n\n
+        Adivinia las letras y completa la palabra. Inicias con una puntuación de 200, por cada letra atinada subes 10 puntos.
+        Si eliges una palabra que no se encuentra te iras ahorcando y tu puntaje disminuira 20 puntos, pierdes una vez que te quedes
+        sin puntos o cuando te ahorques.\n\n\n\n</string>
+    <string name="textoayuda3">2 Jugadores</string>
+    <string name="textoayuda4">En este modo de juego dos personas pueden jugar con el mismo móvil/tablet. Primero un jugador escribirá su palabra
+        que se menos de 36 letras, para que el otro jugador pueda adivinarla. Una vez terminado se invertiran los roles.</string>
+        
+    <string name="creditos1">Elaborado por/Made by:\n Andrea Montoya Cárdenas\n\nFullstack Developer\n\n
+        Contacto/contact: \nandrea_montoya93@hotmail.com</string>
+    <string name="creditos_app">Créditos App</string>
+    <string name="creditos_musica">Créditos Música</string>
+    <string name="creditos2">Canción Inicio:\nHold On We are Going Home by Ella Henderson (Cover)\n\nCanción Juego:\nGame of Thrones Main Title Theme by Ramin Djawadi</string>
+
+   <string name="txtpuntos">Puntos</string>
+    <string name="puntos">200</string>
+    
+    
+    <string name="catmusica">Música</string>
+    <string name="catcomida">Comida</string>
+    <string name="catpeliser">Peliculas y Series</string>
+    <string name="catpsj">Personajes</string>
+    <string name="catdeportes">Deportes</string>
+    <string name="catciudpai">Ciudades y Países</string>
+    <string name="catdisney">Disney</string>
+    <string name="catmarcas">Marcas</string>
+    
+    <string name="txtjugador">Jugador</string>
+    
+    <string name="bnta">a</string>
+    <string name="bntb">b</string>
+    <string name="bntc">c</string>
+    <string name="bntd">d</string>
+    <string name="bnte">e</string>
+    <string name="bntf">f</string>
+    <string name="bntg">g</string>
+    <string name="bnth">h</string>
+    <string name="bnti">i</string>
+    <string name="bntj">j</string>
+    <string name="bntk">k</string>
+    <string name="bntl">l</string>
+    <string name="bntm">m</string>
+    <string name="bntn">n</string>
+    <string name="bntn2">ñ</string>
+    <string name="bnto">o</string>
+    <string name="bntp">p</string>
+    <string name="bntq">q</string>
+    <string name="bntr">r</string>
+    <string name="bnts">s</string>
+    <string name="bntt">t</string>
+    <string name="bntu">u</string>
+    <string name="bntv">v</string>
+    <string name="bntw">w</string>
+    <string name="bntx">x</string>
+    <string name="bnty">y</string>
+    <string name="bntz">z</string>
+    
+    
+    <string name="txtingnombre">Ingresa tu nombre</string>
+    <string name="txtingpalabra">Ingresa la palabra que quieres que el otro jugador advine</string>
+    <string name="txtlisto">Listo!</string>
+    
+    <string name="nombrejug1">Jugador 1</string>
+    <string name="nombrejug2">Jugador 2</string>
+    <string name="puntajejug1">Puntaje 1</string>
+    <string name="puntajejug2">Puntaje 2</string>
+    <string name="btnmostrar">Mostrar Puntajes</string>
+    
+    <string name="btnagrpalabras">Agregar Palabras</string>
+    <string name="txtmsj">Escribe la palabra que quieres agregar</string>
+    <string name="btnagregar">Agregar</string>
+    
+    <string name="nombre1jug">Jugador</string>
+    <string name="puntaje1jug">Puntaje</string>
+    <string name="palabra1jug">Palabra</string>
+    <string name="btnmostrar1jug">Mostrar Puntaje</string>
+    
+    
+</resources>

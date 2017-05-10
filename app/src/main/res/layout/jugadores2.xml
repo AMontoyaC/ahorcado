@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/fondo"
+    >
+    
+<AbsoluteLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btnhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:drawableLeft="@drawable/home"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/txtpuntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtpuntos"
+        android:textSize="15sp"
+        android:gravity="right"
+        android:textColor="@color/white"
+        android:layout_x="300dp"
+        android:layout_y="0dp"/>
+
+    <TextView
+        android:id="@+id/puntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/puntos"
+        android:textSize="25sp"
+        android:gravity="right"
+        android:textColor="@color/white"
+        android:layout_x="310dp"
+        android:layout_y="20dp"/>
+
+    <TextView
+        android:id="@+id/txtjugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="56dp"
+        android:text="@string/txtjugador"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imgfoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="125dp"
+        android:layout_y="0dp"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        android:src="@drawable/face" />
+    
+    <ImageView
+        android:id="@+id/triste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="125dp"
+        android:layout_y="0dp"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        android:src="@drawable/triste"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/cuerpo"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_x="129dp"
+        android:layout_y="72dp"
+        android:src="@drawable/palocuerpo" 
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/manoizquierda"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="74dp"
+        android:src="@drawable/brazoizq" 
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/manoderecha"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_x="112dp"
+        android:layout_y="68dp"
+        android:src="@drawable/brazoder"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/piernaderecha"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="131dp"
+        android:src="@drawable/piernaizq" 
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/piernaizquierda"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="126dp"
+        android:src="@drawable/piernader" 
+        android:visibility="invisible"/>
+
+</AbsoluteLayout>
+    
+<!--     //para las palabras, se pueden de hasta 36 letras-->
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="130dp">
+        
+        <TextView
+            android:id="@+id/pnlcentro"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:textColor="@color/white"
+    		android:gravity="center"
+    		android:textSize="10dp" />
+        
+    </TableLayout>
+        
+        
+<!--     //los botones con las letras -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_vertical">
+        
+        
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btna"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bnta"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnb"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntb"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnc"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntc"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnd"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntd"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btne"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bnte"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnf"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntf"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btng"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntg"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnh"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bnth"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btni"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bnti"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnj"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntj"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnk"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntk"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnl"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntl"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnm"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntm"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnn"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntn"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnn2"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntn2"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btno"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bnto"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnp"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntp"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnq"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntq"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnr"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntr"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btns"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bnts"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnt"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntt"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnu"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntu"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnv"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntv"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnw"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntw"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnx"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntx"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btny"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bnty"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+        <Button
+            android:id="@+id/btnz"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:text="@string/bntz"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:background="?android:attr/selectableItemBackground" />
+        
+    </TableRow>
+    
+    </TableLayout>
+    
+</LinearLayout>

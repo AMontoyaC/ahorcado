@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:layout_gravity="center"
+	android:gravity="center"
+	android:background="@drawable/fondo">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="2">
+
+		<!-- columna #1 -->
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="vertical"
+			android:paddingLeft="10sp">
+
+			<Button
+				android:id="@+id/btnagrpersonajes"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/catpsj"
+				android:textColor="@color/white"
+				android:layout_margin="5dp"
+				android:drawableTop="@drawable/personajes"
+				android:background="?android:attr/selectableItemBackground"/>
+
+			<Button
+				android:id="@+id/btnagrciudadespaises"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/catciudpai"
+				android:textColor="@color/white"
+				android:layout_margin="5dp"
+				android:drawableTop="@drawable/ciudpai"
+				android:background="?android:attr/selectableItemBackground"/>
+
+			<Button
+				android:id="@+id/btnagrPeliculasSeries"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/catpeliser"
+				android:textColor="@color/white"
+				android:layout_margin="5dp"
+				android:drawableTop="@drawable/moviestv"
+				android:background="?android:attr/selectableItemBackground"/>
+
+			<Button
+				android:id="@+id/btnagrdeportes"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/catdeportes"
+				android:textColor="@color/white"
+				android:layout_margin="5dp"
+				android:drawableTop="@drawable/deportes"
+				android:background="?android:attr/selectableItemBackground"/>
+		</LinearLayout>
+
+		<!-- columna #2 -->
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="vertical"
+			android:paddingLeft="50sp">
+
+			<Button
+				android:id="@+id/btnagrcomida"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:drawableTop="@drawable/comida"
+				android:text="@string/catcomida"
+				android:layout_margin="5dp"
+				android:textColor="@color/white"
+				android:background="?android:attr/selectableItemBackground" />
+
+			<Button
+				android:id="@+id/btnagrmusica"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/catmusica"
+				android:textColor="@color/white"
+				android:layout_margin="5dp"
+				android:drawableTop="@drawable/musica"
+				android:background="?android:attr/selectableItemBackground"/>
+
+			<Button
+				android:id="@+id/btnagrmarcas"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/catmarcas"
+				android:textColor="@color/white"
+				android:layout_margin="5dp"
+				android:drawableTop="@drawable/marcas"
+				android:background="?android:attr/selectableItemBackground"/>
+
+			<Button
+				android:id="@+id/btnagrdisney"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/catdisney"
+				android:textColor="@color/white"
+				android:layout_margin="5dp"
+				android:drawableTop="@drawable/disney"
+				android:background="?android:attr/selectableItemBackground"/>
+		</LinearLayout>
+	</LinearLayout>
+</TableLayout>

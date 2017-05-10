@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/fondo"
+	android:paddingTop="10dp">
+
+	<TextView
+		android:id="@+id/txtcreditos_app"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:gravity="left"
+		android:text="@string/creditos_app"
+		android:textSize="30sp"
+		android:textColor="@color/white"
+		android:paddingBottom="15sp"/>
+
+	<TextView
+        android:id="@+id/txtcreditos1"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:gravity="center"
+    	android:text="@string/creditos1"
+    	android:textColor="@color/white"
+		android:textSize="15sp"/>
+
+	<TextView
+		android:paddingTop="15sp"
+		android:id="@+id/txtcreditos_musica"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:gravity="left"
+		android:text="@string/creditos_musica"
+		android:textSize="30sp"
+		android:textColor="@color/white"
+		android:paddingBottom="15sp"/>
+
+	<TextView
+		android:id="@+id/txtcreditos2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:gravity="center"
+		android:text="@string/creditos2"
+		android:textColor="@color/white"
+		android:textSize="15sp"/>
+
+    <ImageView
+		android:layout_marginTop="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:gravity="center"
+        android:background="@drawable/android"/>
+    
+</LinearLayout>

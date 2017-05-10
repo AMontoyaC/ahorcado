@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_5c1ca17b3b43cc63cfd5a8cbdc26f6d193ee081a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_a7d054d58df235954c420955147171d91b0bc88c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_5933b6a6ccae8e7ec5f2fe9d73cbdb4d0c1df3e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.0_9269878ed077c9dd5b7e1b3f12eed1f8a5291172.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_782f54301a7fe168632d72cf239fe933eada24c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_2a59809daa281cf51abc5666e06352052bfa2cc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_e16a452d6e910b7e32897accd7fffb17d7f8507b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_ef027389fe2b0fd09c89865d9fd1e1f3371ebbd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_9ab3efefe074c8c42eb143f341297159e02196df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\com.android.support-customtabs-25.0.0_c1d3a3c2bb231901fbe07dd3706f55cb5f968e65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_7280caf3ebc1ee8e7baaf452b8f37be81959b483.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_dceabdf3931e5440d6ca57ef8c81926f7ed03860.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_da6ee53956cb698b716f957bc56e7d62ab71c1e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_afd82ee82f5c0c583ebe16ac4cca2bafb280bb60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.22.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0d94c39080a309d1887f50ef68cc96dfe4bc9d01">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.22.0_52889ec4af7864909964657fd1630794dfe8ba23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_0f266fa23f32136f71439cc30cef70f5351fb1af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_37fd6daf8e651883f0faf8e7f56603971e812bf8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_fe6a6a36e6d2fb9a943f7f01c3a06f69ca32271f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_3976498bc569f40fb28a7eb6f727f9abaf2d1c74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\amontoya\AndroidStudioProjects\Egsa\ahorcado\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_74bb8690f092347bf8c064463905b3e61dc4fe7c.jar" />
+    </item>
+
+</items>

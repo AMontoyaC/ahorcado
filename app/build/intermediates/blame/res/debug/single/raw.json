@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\raw\\introsound.mp4",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\raw\\introsound.mp4"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\raw\\entrada.mp4",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\raw\\entrada.mp4"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\raw\\musicaespera.mp3",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\raw\\musicaespera.mp3"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\raw\\holdon.mp3",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\raw\\holdon.mp3"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gotsound.mp3",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\raw\\gotsound.mp3"
+    },
+    {
+        "merged": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\build\\intermediates\\res\\merged\\debug\\raw\\introduccion.mp4",
+        "source": "C:\\Users\\amontoya\\AndroidStudioProjects\\Egsa\\ahorcado\\app\\src\\main\\res\\raw\\introduccion.mp4"
+    }
+]

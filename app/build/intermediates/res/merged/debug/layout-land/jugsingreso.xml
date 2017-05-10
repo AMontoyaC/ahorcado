@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/fondo">
+    
+    <TextView
+        android:id="@+id/txtingnombre"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/txtingnombre"
+    	android:textColor="@color/white"
+        />
+    
+    <EditText 
+        android:id="@+id/ingnombre"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="text"
+    	android:textColor="@color/white"
+        />
+    
+    <TextView
+        android:id="@+id/txtingpalabra"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/txtingpalabra"
+    	android:textColor="@color/white"
+        />
+    
+    <EditText 
+        android:id="@+id/ingpalabra"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="text"
+    	android:textColor="@color/white"
+        />
+    
+    <Button 
+        android:id="@+id/btnlisto"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/txtlisto"
+    	android:textColor="@color/white"
+        />
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/android"
+    	android:layout_gravity="center"
+        />
+
+</LinearLayout>

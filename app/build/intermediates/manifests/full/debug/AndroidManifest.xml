@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ahorcado"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ahorcado.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.ahorcado.Inicio"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ahorcado.Principal" />
+        <activity android:name="com.example.ahorcado.Ayuda" />
+        <activity android:name="com.example.ahorcado.Creditos" />
+        <activity android:name="com.example.ahorcado.Categorias" />
+        <activity
+            android:name="com.example.ahorcado.Jugador1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.ahorcado.Jugadores2"
+            android:screenOrientation="portrait" />
+        <!-- android:configChanges="orientation|screenSize" -->
+
+        <activity android:name="com.example.ahorcado.JugsIngreso" />
+        <activity android:name="com.example.ahorcado.Pasar" />
+        <activity android:name="com.example.ahorcado.Jug1Adivinar" />
+        <activity android:name="com.example.ahorcado.Jug2Adivinar" />
+        <activity android:name="com.example.ahorcado.Adivinaste" />
+        <activity android:name="com.example.ahorcado.Perdiste" />
+        <activity android:name="com.example.ahorcado.Puntaje2Jugs" />
+        <activity android:name="com.example.ahorcado.Agregar_Palabras_Categorias" />
+        <activity android:name="com.example.ahorcado.Agregar_Palabra" />
+        <activity android:name="com.example.ahorcado.AgregadaCorrectamente" />
+        <activity android:name="com.example.ahorcado.Puntaje1Jug" />
+        <activity android:name="com.example.ahorcado.Adivinaste1Jug" />
+        <activity android:name="com.example.ahorcado.Perdiste1Jug" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@style/com_facebook_activity_theme" />
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="com.example.ahorcado.FacebookInitProvider"
+            android:exported="false" />
+    </application>
+
+</manifest>
